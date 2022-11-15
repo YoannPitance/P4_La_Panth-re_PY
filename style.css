@@ -4,7 +4,7 @@ body {
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;    
 }
 
 a,
@@ -526,8 +526,12 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 16px;
     opacity: 1;
+}
+
+.textenoir{
+    color: #000000;
 }
 
 a[data-lightbox] {
@@ -650,8 +654,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 500;
+    color: #000000!important;
 }
 
 .container {
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -736,7 +740,10 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
 .portfolio-thumb {
@@ -763,7 +770,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF;    
 }
 
 .bgc-dark-slate-blue {
@@ -776,6 +783,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    text-shadow: 3px 2px 2px rgba(0,0,0,1);
 }
 
 .btn-atomic-tangerine {
@@ -789,7 +797,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #ffffff!important;
 }
 
 .ltc-white:hover {
